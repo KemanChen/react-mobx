@@ -29,7 +29,7 @@ export default class Movie extends Component {
             dataIndex: 'title',
             render: text => <a href="javascript:;">{text}</a>,
         }, {
-            title: '评分',
+            title: '豆瓣评分',
             dataIndex: 'rating',
         }, {
             title: '年份',
