@@ -1,0 +1,14 @@
+#home{
+  .wrapper {
+    background: #00c7b7;
+  }
+  & > img {
+    transform: rotate(45deg);
+  }
+  .greet {
+    width: 100px;
+    height: 100px;
+    background: url("./images/timg.jpg") no-repeat;
+    background-size: 100%;
+  }
+}
